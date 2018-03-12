@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Principal, AccountService } from '../../shared';
+import { Principal, AccountService } from '../../../shared';
 
 @Component({
     selector: 'jhi-settings',
-    templateUrl: './settings.component.html'
+    templateUrl: './user-settings.component.html'
 })
 export class SettingsComponent implements OnInit {
     error: string;
